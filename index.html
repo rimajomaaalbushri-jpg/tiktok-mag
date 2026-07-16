@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofia - Content Scheduling Tool</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  .hero {
+    background: linear-gradient(135deg, #6c47ff 0%, #ff4f81 100%);
+    padding: 80px 20px 100px;
+    text-align: center;
+    color: #fff;
+  }
+  .logo {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 24px;
+    border-radius: 22px;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .hero h1 { font-size: 40px; margin: 0 0 12px; }
+  .hero p { font-size: 18px; opacity: 0.95; max-width: 560px; margin: 0 auto; line-height: 1.6; }
+
+  .container { max-width: 800px; margin: -50px auto 0; padding: 0 20px 60px; }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 40px;
+    margin-bottom: 24px;
+  }
+  .card h2 { font-size: 22px; margin-top: 0; }
+  .features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 16px; }
+  .feature { padding: 16px; background: #f7f7f9; border-radius: 10px; }
+  .feature strong { display: block; margin-bottom: 6px; font-size: 15px; }
+  .feature span { font-size: 14px; color: #555; }
+
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #888;
+    font-size: 14px;
+  }
+  footer a { color: #6c47ff; text-decoration: none; margin: 0 10px; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .features { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 30px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo">S</div>
+  <h1>Sofia</h1>
+  <p>A content scheduling tool that lets creators and page managers plan and publish videos to their own authorized TikTok accounts.</p>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2>What Sofia does</h2>
+    <p>
+      Sofia helps creators and page managers organize, schedule, and publish
+      video content to TikTok in a structured, reliable way — connecting
+      securely to your own TikTok account through official login and
+      authorization.
+    </p>
+    <div class="features">
+      <div class="feature">
+        <strong>Scheduling</strong>
+        <span>Plan your video publishing calendar in advance.</span>
+      </div>
+      <div class="feature">
+        <strong>Secure Login</strong>
+        <span>Connect your TikTok account via official OAuth authorization.</span>
+      </div>
+      <div class="feature">
+        <strong>Content Management</strong>
+        <span>Organize titles, captions, and media in one place.</span>
+      </div>
+      <div class="feature">
+        <strong>Publishing Status</strong>
+        <span>Track whether your content was published successfully.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Who it's for</h2>
+    <p>
+      Sofia is built for individual creators and page managers who want a
+      simple, organized way to manage their TikTok publishing workflow
+      without manually uploading videos one by one.
+    </p>
+  </div>
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a> |
+  <a href="terms.html">Terms of Service</a>
+  <p>&copy; 2026 Sofia. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
